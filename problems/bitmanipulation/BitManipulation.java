@@ -6,6 +6,8 @@ public class BitManipulation {
         System.out.println(clearBit(5, 2));
         System.out.println(flipBit(5, 2));
         System.out.println(isBitSet(53, 4));
+        System.out.println(isEven(53));
+        System.out.println(isPowerOfTwo(16));
     }
 
     public static int setBit(int value, int bitPosition) {
@@ -43,5 +45,13 @@ public class BitManipulation {
         // result = 11 & 01 = 01
         int shifted = value >> bitPosition;
         return shifted & 1;
+    }
+
+    public static boolean isEven(int value) {
+        return (value & 1) == 0;
+    }
+
+    public static boolean isPowerOfTwo(int num) {
+        return (num & num-1) == 0;
     }
 }
