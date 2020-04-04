@@ -455,6 +455,7 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
     - [ ] [Registers and RAM (video)](https://youtu.be/fpnE6UAfbtU)
     - [ ] [The Central Processing Unit (CPU) (video)](https://youtu.be/FZGugFqdr60)
     - [ ] [Instructions and Programs (video)](https://youtu.be/zltgXvg6r3k)
+    - [ ] [Back To Back SWE (video)](https://www.youtube.com/channel/UCmJz2DV1a3yfgrR7GqRtUUA)
 
 ## Algorithmic complexity / Big-O / Asymptotic analysis
 
